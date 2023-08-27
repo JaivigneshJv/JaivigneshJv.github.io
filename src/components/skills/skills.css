@@ -2,7 +2,7 @@
   grid-template-columns: repeat(3, 350px);
   column-gap: 3rem;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .sklls__content {

@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="" className="nav__logo">
-          SekCJv
+          Jv
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -60,19 +60,6 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-scenery nav__icon"></i> Projects
-              </a>
-            </li>
-            <li className="nav__item">
-              <a
-                href="#footer"
-                onClick={() => setActiveNav("#footer")}
-                className={
-                  activeNav === "#footer"
-                    ? "nav__link active-link"
-                    : "nav__link"
-                }
-              >
-                <i className="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
           </ul>

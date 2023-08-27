@@ -6,7 +6,7 @@ import Softskills from "./Softskills";
 
 const Skills = () => {
   return (
-    <section className="skills section" id="skills">
+    <section className="skill section" id="skills">
       <h2 className="section__title1">Skills</h2>
       {/* <span className="section__subtitle">My Technical level</span> */}
 
