@@ -7,7 +7,7 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Manga Tranlator",
+    title: "Manga Translator",
     category: "app",
     link: "https://github.com/JaivigneshJv/Manga-Translator",
   },
