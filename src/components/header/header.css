@@ -1,5 +1,5 @@
 #header {
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-l);
 }
 .header {
   width: 100%;

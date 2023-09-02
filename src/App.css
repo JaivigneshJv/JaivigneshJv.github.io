@@ -103,6 +103,7 @@
   --border-rad: 1px solid rgba(255, 255, 255, 0.7);
   --container-color-foot: rgba(184, 184, 184, 0.15);
   --box-shadow: 0 -0.5px 1px rgb(255, 255, 255);
+  --box-shadow-l: 0px 0.1px 1.5px white;
 }
 
 /* Responsive typography */
