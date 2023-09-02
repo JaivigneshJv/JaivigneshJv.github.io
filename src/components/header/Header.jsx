@@ -1,14 +1,35 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./header.css";
 
 const Header = () => {
   const [Toggle, showMenu] = useState(false);
+
   const [activeNav, setActiveNav] = useState("#home");
 
+  const [theme, setTheme] = useState("light_theme");
+
+  const [li, setli] = useState("bx bxs-moon");
+  // let li = "";
+  // let di = "bx bx-sun";
+
+  const toggleTheme = () => {
+    if (theme === "light_theme") {
+      setTheme("dark_theme");
+      setli("bx bxs-sun");
+    } else {
+      setTheme("light_theme");
+      setli("bx bxs-moon");
+    }
+  };
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
   return (
-    <header className="header">
+    <header className="header" id="header">
       <nav className="nav container">
-        <a href="" className="nav__logo">
+        <a href="#home" className="nav__logo">
           Jv
         </a>
 
@@ -61,6 +82,12 @@ const Header = () => {
               >
                 <i className="uil uil-scenery nav__icon"></i> Projects
               </a>
+            </li>
+
+            <li className="nav__item">
+              <div className="home__social-icon nav__icontoggle" onClick={toggleTheme}>
+                <i class={li}></i>
+              </div>
             </li>
           </ul>
 
