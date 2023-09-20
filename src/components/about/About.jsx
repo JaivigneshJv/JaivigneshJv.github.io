@@ -22,7 +22,7 @@ const About = () => {
             stimulating and rewarding environment.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a href={CV} target="_blank" rel="noopener noreferrer" className="button button--flex">
             Resume
             <svg
               class="button__icon"
