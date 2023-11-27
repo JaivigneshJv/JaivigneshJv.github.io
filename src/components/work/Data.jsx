@@ -2,6 +2,7 @@ import Work1 from "../../assets/1.jpg";
 import Work2 from "../../assets/2.png";
 import Work3 from "../../assets/3.png";
 import Work4 from "../../assets/4.png";
+import Work5 from "../../assets/5.png";
 
 export const projectsData = [
   {
@@ -20,16 +21,23 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: Work3,
-    title: "Introspect 23' Magazine (Figma)",
-    category: "design",
-    link: "https://secintrospect23.netlify.app/",
-  },
-  {
-    id: 4,
     image: Work4,
     title: "Netflix Data Analysis",
     category: "app",
     link: "https://www.canva.com/design/DAFSHe-1kq4/I6mIuleyGNK80OrLhXkuJA/view?utm_content=DAFSHe-1kq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+  },
+  {
+    id: 4,
+    image: Work5,
+    title: "Song Weave - Playlist Creator",
+    category: "app",
+    link: "https://orange-island-0c4875503.4.azurestaticapps.net/",
+  },
+  {
+    id: 5,
+    image: Work3,
+    title: "Introspect 23' Magazine (Figma)",
+    category: "design",
+    link: "https://secintrospect23.netlify.app/",
   },
 ];
